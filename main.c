@@ -38,10 +38,10 @@ void Task100ms(void)
    {
 	   static uint8_t var = 0;
 	   if(var == 0){
-		   DDRD = 0x00;
+		   PORTD = 0x00;
 		   var = 1;
 	   }else{
-		   DDRD = 0xFF;
+		   PORTD= 0xFF;
 		   var = 0;
 	   }
 
