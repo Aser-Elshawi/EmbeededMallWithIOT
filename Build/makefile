@@ -13,11 +13,11 @@ AVRDUDE_FLAGS := -p $(MCU) -c $(AVRDUDE_PROGRAMMER)
 SHELL = C:\cygwin64\bin\sh.exe
 #============== C files in thier respective Directories ========================
 SRCS = 	../main.c \
-#		ADC/ADC.c\
-#		PWM/PWM.c
+		../OS/OS.c\
+		../OS/OStimer.c
 
-INCS =	
-#INCS = MOT/ \
+INCS =	../OS/
+#INCS = OS/ \
 #		Includes/
 
 #===============================================================================
