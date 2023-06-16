@@ -1,0 +1,17 @@
+ cd ..
+ mkdir [folder_name]
+ for the first time only:
+ git clone https://github.com/Aser-Elshawi/EmbeededMallWithIOT.git
+ 
+ after update,
+ 1- clean from eclipse
+ 2- git status 
+ 3- git add .
+ 4- git commit -m"comment about the change"
+ 5- git push
+ 
+ 
+ if someone else did the update and I want to get the latest
+ 
+ 1- git pull
+ 
